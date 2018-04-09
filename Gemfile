@@ -7,14 +7,16 @@ gem 'rails', '4.1.0'
 gem 'sqlite3', group: [:development, :test]
 
 
-
 # Use postgresql to database for production 
 group :production do
     gem 'pg'
     gem 'rails_12factor'
 end
 
+
 gem 'bootstrap-sass', '~> 3.3.1'
+#use font awesome for icon
+gem 'font-awesome-sass', '~> 5.0.9'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
